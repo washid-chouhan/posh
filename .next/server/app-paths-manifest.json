@@ -1,0 +1,7 @@
+{
+  "/profile/page": "app/profile/page.js",
+  "/page": "app/page.js",
+  "/notifications/page": "app/notifications/page.js",
+  "/entry/page": "app/entry/page.js",
+  "/messages/page": "app/messages/page.js"
+}

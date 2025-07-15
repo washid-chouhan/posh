@@ -1,0 +1,447 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\layout.tsx","import":"Inter","arguments":[{"weight":["400","500","700"],"subsets":["latin"],"display":"swap","variable":"--font-inter"}],"variableName":"inter"} ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: '__Inter_Fallback_1deade';
+  src: local("Arial");
+  ascent-override:90.49%;
+  descent-override:22.56%;
+  line-gap-override:0.00%;
+  size-adjust:107.06%;
+}@font-face {font-family: '__Inter_Fallback_Fallback_1deade';src: local("Arial");ascent-override: 90.49%;descent-override: 22.56%;line-gap-override: 0.00%;size-adjust: 107.06%
+}.__className_1deade {font-family: '__Inter_Fallback_1deade', '__Inter_Fallback_Fallback_1deade';font-style: normal
+}.__variable_1deade {--font-inter: '__Inter_Fallback_1deade', '__Inter_Fallback_Fallback_1deade'
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\layout.tsx","import":"Rubik","arguments":[{"weight":["400","500","600","700"],"subsets":["latin"],"display":"swap","variable":"--font-rubik"}],"variableName":"rubik"} ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: '__Rubik_Fallback_11434a';
+  src: local("Arial");
+  ascent-override:89.06%;
+  descent-override:23.81%;
+  line-gap-override:0.00%;
+  size-adjust:104.98%;
+}@font-face {font-family: '__Rubik_Fallback_Fallback_11434a';src: local("Arial");ascent-override: 89.06%;descent-override: 23.81%;line-gap-override: 0.00%;size-adjust: 104.98%
+}.__className_11434a {font-family: '__Rubik_Fallback_11434a', '__Rubik_Fallback_Fallback_11434a';font-style: normal
+}.__variable_11434a {--font-rubik: '__Rubik_Fallback_11434a', '__Rubik_Fallback_Fallback_11434a'
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./styles/app.sass ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5,
+h6, p, blockquote, pre, a, abbr, acronym, address, big,
+cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small,
+strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt,
+dd, ol, ul, li, fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article, aside, canvas, details,
+embed, figure, figcaption, footer, header, hgroup, menu, nav,
+output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+img, fieldset, a img {
+  border: none;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+  -webkit-appearance: none;
+}
+
+input[type=submit],
+button {
+  cursor: pointer;
+}
+input[type=submit]::-moz-focus-inner,
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+input, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+div, input, textarea, select, button,
+h1, h2, h3, h4, h5, h6, a, span, a:focus {
+  outline: none;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
+.modal-enter {
+  opacity: 0;
+}
+.modal-enter-active {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.modal-enter-active .modal-container {
+  transition: transform 0.3s;
+}
+
+.modal-exit {
+  opacity: 1;
+}
+
+.modal-exit-active {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.modal-exit-active .modal-container {
+  transform-origin: 100% 0;
+  transition: transform 0.3s;
+}
+
+body {
+  background: #444444;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgba(248, 248, 248, 0.95);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea,
+input,
+button {
+  font-family: inherit;
+}
+
+button {
+  background: none;
+}
+
+[class^=button] {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+  height: 44px;
+  border-radius: 32px;
+  background: rgba(40, 40, 40, 0.7);
+  box-shadow: inset 2px 4px 16px 0px rgba(248, 248, 248, 0.06);
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 600;
+  color: rgba(248, 248, 248, 0.7);
+  transition: background 0.2s, color 0.2s;
+}
+[class^=button] svg {
+  fill: rgba(248, 248, 248, 0.56);
+  transition: fill 0.2s;
+}
+[class^=button] img {
+  opacity: 1;
+}
+[class^=button]:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 32px;
+  pointer-events: none;
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  -webkit-mask-image: linear-gradient(175deg, black, transparent 50%);
+          mask-image: linear-gradient(175deg, black, transparent 50%);
+}
+[class^=button]:hover {
+  background: rgba(248, 248, 248, 0.1);
+  color: rgba(248, 248, 248, 0.76);
+}
+[class^=button]:hover svg {
+  fill: rgba(248, 248, 248, 0.76);
+}
+[class^=button]:hover:before {
+  opacity: 1;
+}
+
+.button-circle {
+  width: 44px;
+  padding: 0;
+  border-radius: 50%;
+}
+.button-circle svg {
+  margin: 0 !important;
+}
+.button-circle:before, .button-circle:after {
+  border-radius: 50%;
+}
+.button-circle:after {
+  -webkit-mask-image: linear-gradient(165deg, black, transparent 60%);
+          mask-image: linear-gradient(165deg, black, transparent 60%);
+}
+
+.button-medium {
+  height: 52px;
+  padding: 0 32px;
+}
+
+div.react-tooltip {
+  z-index: 100;
+  padding: 5px 12px 3px;
+  background: #262626;
+  box-shadow: 0px 1.5px 2px 0px rgba(24, 24, 24, 0.15);
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 1.33;
+  color: rgba(248, 248, 248, 0.7);
+}
+
+[class^=social] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 8px;
+  height: 40px;
+  padding: 0 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  line-height: 1.33;
+  font-weight: 600;
+  color: rgba(248, 248, 248, 0.56);
+  transition: all 0.2s;
+}
+@media only screen and (max-width: 767px) {
+  [class^=social] {
+    height: 36px;
+    padding: 0 9px;
+  }
+}
+[class^=social] svg {
+  fill: rgba(248, 248, 248, 0.4);
+  transition: all 0.2s;
+}
+[class^=social]:hover {
+  background: rgba(248, 248, 248, 0.05);
+  color: rgba(248, 248, 248, 0.76);
+}
+[class^=social]:hover svg {
+  fill: rgba(248, 248, 248, 0.76);
+}
+
+.social-circle {
+  width: 40px;
+  padding: 0;
+  border-radius: 50%;
+}
+.social-circle:hover {
+  background: rgba(248, 248, 248, 0.1);
+}
+
+.row {
+  display: flex;
+  min-height: 100svh;
+}
+@media only screen and (max-width: 767px) {
+  .row {
+    display: block;
+    min-height: auto;
+  }
+}
+
+.row-sidebar {
+  width: 440px;
+  background: rgba(40, 40, 40, 0.8);
+}
+@media only screen and (max-width: 1579px) {
+  .row-sidebar {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 1419px) {
+  .row-sidebar {
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .row-sidebar {
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .row-sidebar {
+    width: 100%;
+  }
+}
+
+.row-container {
+  width: calc(100% - 440px);
+  background: rgba(40, 40, 40, 0.7);
+}
+@media only screen and (max-width: 1579px) {
+  .row-container {
+    width: calc(100% - 400px);
+  }
+}
+@media only screen and (max-width: 1419px) {
+  .row-container {
+    width: calc(100% - 320px);
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .row-container {
+    width: calc(100% - 280px);
+  }
+}
+@media only screen and (max-width: 767px) {
+  .row-container {
+    width: 100%;
+  }
+}
+
+.rti .rti--container {
+  padding: 0;
+  background: transparent;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0;
+  min-height: 32px;
+  gap: 6px;
+  font-size: 0;
+}
+.rti .rti--input {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgba(248, 248, 248, 0.4);
+}
+.rti .rti--input::placeholder {
+  color: rgba(248, 248, 248, 0.4);
+}
+.rti .rti--tag {
+  position: relative;
+  height: 32px;
+  gap: 8px;
+  padding: 0 12px;
+  border-radius: 8px;
+  background: rgba(248, 248, 248, 0.05);
+  font-size: 12px;
+  line-height: 1.33;
+  font-weight: 600;
+  color: rgba(248, 248, 248, 0.95);
+}
+.rti .rti--tag:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  pointer-events: none;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  -webkit-mask-image: linear-gradient(178deg, black, transparent 60%);
+          mask-image: linear-gradient(178deg, black, transparent 60%);
+}
+.rti .rti--tag button {
+  padding: 0;
+  line-height: 1;
+  color: rgba(248, 248, 248, 0.25);
+  transition: color 0.2s;
+}
+.rti .rti--tag button:hover {
+  color: rgba(248, 248, 248, 0.56);
+}
+
+.rc-slider.slider-text-size {
+  height: 12px;
+  border-radius: 2px;
+}
+.rc-slider.slider-text-size .rc-slider-rail {
+  height: 2px;
+  border-radius: 2px;
+  background-color: rgba(248, 248, 248, 0.05);
+}
+.rc-slider.slider-text-size .rc-slider-track, .rc-slider.slider-text-size .rc-slider-tracks {
+  height: 2px;
+  border-radius: 2px;
+  background-color: rgba(248, 248, 248, 0.5);
+}
+.rc-slider.slider-text-size .rc-slider-step {
+  height: 2px;
+}
+.rc-slider.slider-text-size .rc-slider-handle {
+  width: 16px;
+  height: 16px;
+  margin-top: -7px;
+  border: none;
+  box-shadow: none !important;
+  background: linear-gradient(180deg, rgba(248, 248, 248, 0.9) 0%, rgba(248, 248, 248, 0.3) 100%);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  opacity: 1;
+}
+.rc-slider.slider-brightness {
+  height: 32px;
+  padding: 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.rc-slider.slider-brightness .rc-slider-rail {
+  height: 32px;
+  border-radius: 12px;
+  background-color: rgba(248, 248, 248, 0.05);
+}
+.rc-slider.slider-brightness .rc-slider-track, .rc-slider.slider-brightness .rc-slider-tracks {
+  height: 32px;
+  border-radius: 0;
+  background-color: rgba(248, 248, 248, 0.1);
+}
+.rc-slider.slider-brightness .rc-slider-step {
+  height: 32px;
+}
+.rc-slider.slider-brightness .rc-slider-handle {
+  display: none;
+}

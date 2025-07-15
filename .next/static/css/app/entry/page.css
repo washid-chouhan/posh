@@ -1,0 +1,527 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./components/Image/Image.module.sass ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Image_image__5RgVm {
+  display: inline-block;
+  vertical-align: top;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.Image_image__5RgVm.Image_loaded__qmdFe {
+  opacity: 1;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./components/Field/Field.module.sass ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Field_label___mfIR {
+  margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgba(248, 248, 248, 0.76);
+}
+
+.Field_wrap__dpUE_.Field_wrapTextarea__M3LEk {
+  font-size: 0;
+}
+
+.Field_input__1L5wD,
+.Field_textarea__aADgF {
+  width: 100%;
+  background: rgba(248, 248, 248, 0.05);
+  border-radius: 12px;
+  border: 1.5px solid transparent;
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgba(248, 248, 248, 0.76);
+  transition: all 0.2s;
+}
+.Field_input__1L5wD:focus,
+.Field_textarea__aADgF:focus {
+  border-color: rgba(248, 248, 248, 0.25);
+  background: transparent;
+}
+
+.Field_input__1L5wD {
+  height: 52px;
+  padding: 0 18px;
+}
+
+.Field_textarea__aADgF {
+  height: 136px;
+  padding: 16px 18px;
+  resize: none;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./components/Icon/Icon.module.sass ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Icon_icon__Got8Y {
+  fill: rgba(248, 248, 248, 0.4);
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./screens/EntryScreen/SignIn/SignIn.module.sass ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.SignIn_field__Qmt70 {
+  position: relative;
+}
+.SignIn_field__Qmt70:not(:first-child) {
+  margin-top: 14px;
+}
+
+.SignIn_reset__xgois {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.SignIn_reset__xgois svg {
+  width: 12px;
+  height: 12px;
+  fill: rgba(248, 248, 248, 0.25);
+  transition: fill 0.2s;
+}
+.SignIn_reset__xgois:hover svg {
+  fill: rgba(248, 248, 248, 0.56);
+}
+
+.SignIn_btns__yVLNG {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+}
+.SignIn_btns__yVLNG .SignIn_button__2tFUL {
+  width: 100%;
+  gap: 12px;
+}
+.SignIn_btns__yVLNG .SignIn_button__2tFUL img {
+  opacity: 1;
+}
+
+.SignIn_foot__1i1xe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.33;
+  color: rgba(248, 248, 248, 0.56);
+}
+
+.SignIn_link__5hCa_ {
+  font-size: 12px;
+  line-height: 1.33;
+  font-weight: 600;
+  color: rgba(248, 248, 248, 0.56);
+  transition: color 0.2s;
+}
+.SignIn_link__5hCa_:hover {
+  color: rgba(248, 248, 248, 0.7);
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./screens/EntryScreen/SignUp/SignUp.module.sass ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.SignUp_field__1zfwg:not(:first-child) {
+  margin-top: 14px;
+}
+
+.SignUp_btns__Kz9GL {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+}
+.SignUp_btns__Kz9GL .SignUp_button__yuyDC {
+  width: 100%;
+  gap: 12px;
+}
+.SignUp_btns__Kz9GL .SignUp_button__yuyDC img {
+  opacity: 1;
+}
+
+.SignUp_foot__DbdL_ {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.33;
+  color: rgba(248, 248, 248, 0.56);
+}
+
+.SignUp_link__8payW {
+  font-size: 12px;
+  line-height: 1.33;
+  font-weight: 600;
+  color: rgba(248, 248, 248, 0.56);
+  transition: color 0.2s;
+}
+.SignUp_link__8payW:hover {
+  color: rgba(248, 248, 248, 0.7);
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./screens/EntryScreen/ResetPassword/ResetPassword.module.sass ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ResetPassword_field__tBnsR:not(:first-child) {
+  margin-top: 14px;
+}
+
+.ResetPassword_btns__CmCxR {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+}
+.ResetPassword_btns__CmCxR .ResetPassword_button__FfHcl {
+  width: 100%;
+  gap: 12px;
+}
+.ResetPassword_btns__CmCxR .ResetPassword_button__FfHcl img {
+  opacity: 1;
+}
+
+.ResetPassword_foot__Vz_bU {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.33;
+  color: rgba(248, 248, 248, 0.56);
+}
+
+.ResetPassword_link__PfW5Q {
+  font-size: 12px;
+  line-height: 1.33;
+  font-weight: 600;
+  color: rgba(248, 248, 248, 0.56);
+  transition: color 0.2s;
+}
+.ResetPassword_link__PfW5Q:hover {
+  color: rgba(248, 248, 248, 0.7);
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./screens/EntryScreen/EntryScreen.module.sass ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.EntryScreen_login__3zwlS {
+  position: relative;
+  overflow: hidden;
+}
+
+.EntryScreen_background__56DGp {
+  position: fixed;
+  inset: 0;
+  background: #202020;
+}
+.EntryScreen_background__56DGp:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(100% 100% at 50% 0%, rgba(248, 248, 248, 0.05) 0%, rgba(248, 248, 248, 0) 68.17%);
+}
+.EntryScreen_background__56DGp > img {
+  object-fit: cover;
+  opacity: 1;
+}
+
+.EntryScreen_stars__Gte0A {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1132px;
+  transform: translateX(-50%);
+}
+@media only screen and (max-width: 767px) {
+  .EntryScreen_stars__Gte0A {
+    top: -196px;
+  }
+}
+.EntryScreen_stars__Gte0A img {
+  opacity: 1;
+}
+
+.EntryScreen_inner__6LIY7 {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  padding: 48px;
+}
+@media only screen and (max-width: 767px) {
+  .EntryScreen_inner__6LIY7 {
+    padding: 32px;
+  }
+}
+
+.EntryScreen_body__YQg8x {
+  position: relative;
+  width: 100%;
+  max-width: 408px;
+  margin: auto 0;
+  border-radius: 32px;
+}
+.EntryScreen_body__YQg8x:before, .EntryScreen_body__YQg8x:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 32px;
+  pointer-events: none;
+}
+@media only screen and (max-width: 767px) {
+  .EntryScreen_body__YQg8x:before, .EntryScreen_body__YQg8x:after {
+    display: none;
+  }
+}
+.EntryScreen_body__YQg8x:before {
+  border: 12px solid rgba(248, 248, 248, 0.5);
+  opacity: 0.29;
+  background: linear-gradient(158deg, rgba(255, 255, 255, 0.06) 14.19%, rgba(255, 255, 255, 0) 50.59%, rgba(255, 255, 255, 0) 68.79%, rgba(255, 255, 255, 0.02) 105.18%);
+  filter: blur(20px);
+}
+.EntryScreen_body__YQg8x:after {
+  background: #363638;
+  box-shadow: 2px 4px 16px 0px rgba(248, 248, 248, 0.06) inset, 0px 24px 24px -16px rgba(5, 5, 5, 0.09), 0px 6px 13px 0px rgba(5, 5, 5, 0.1), 0px 6px 4px -4px rgba(5, 5, 5, 0.1), 0px 5px 1.5px -4px rgba(5, 5, 5, 0.25);
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+}
+
+.EntryScreen_bodyInner__YZCjT {
+  position: relative;
+  z-index: 2;
+  padding: 55px 40px;
+}
+@media only screen and (max-width: 767px) {
+  .EntryScreen_bodyInner__YZCjT {
+    padding: 0;
+  }
+}
+.EntryScreen_bodyInner__YZCjT:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 32px;
+  pointer-events: none;
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  -webkit-mask-image: linear-gradient(225deg, black, transparent 20%);
+          mask-image: linear-gradient(225deg, black, transparent 20%);
+}
+@media only screen and (max-width: 767px) {
+  .EntryScreen_bodyInner__YZCjT:after {
+    display: none;
+  }
+}
+
+.EntryScreen_logo__qjIqU {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 24px;
+  background: rgba(248, 248, 248, 0.05);
+  box-shadow: 2px 4px 16px 0px rgba(248, 248, 248, 0.06) inset;
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  border-radius: 50%;
+}
+.EntryScreen_logo__qjIqU:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  pointer-events: none;
+  border: 1.5px solid rgba(255, 255, 255, 0.05);
+  -webkit-mask-image: linear-gradient(170deg, black, transparent 50%);
+          mask-image: linear-gradient(170deg, black, transparent 50%);
+}
+.EntryScreen_logo__qjIqU img {
+  opacity: 1;
+}
+
+.EntryScreen_title__Ul7JF {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 500;
+}
+@media only screen and (max-width: 767px) {
+  .EntryScreen_title__Ul7JF {
+    font-size: 28px;
+  }
+}
+
+.EntryScreen_line__o9UiD {
+  position: absolute;
+  top: 50%;
+  width: 400px;
+  transform: translateY(-50%);
+}
+@media only screen and (max-width: 767px) {
+  .EntryScreen_line__o9UiD {
+    display: none;
+  }
+}
+.EntryScreen_line__o9UiD:nth-child(1) {
+  right: calc(100% + 16px);
+}
+.EntryScreen_line__o9UiD:nth-child(2) {
+  left: calc(100% + 16px);
+}
+.EntryScreen_line__o9UiD img {
+  opacity: 1;
+}
+
+.EntryScreen_foot__OPdmh {
+  margin-top: 32px;
+}
+@media only screen and (max-width: 767px) {
+  .EntryScreen_foot__OPdmh {
+    display: none;
+  }
+}
+
+.EntryScreen_avatars__U7e81 {
+  display: flex;
+  justify-content: center;
+  margin: -2px 0;
+}
+
+.EntryScreen_avatar__nL1u9 {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border: 2px solid #202020;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.EntryScreen_avatar__nL1u9 img {
+  object-fit: cover;
+  opacity: 1;
+}
+.EntryScreen_avatar__nL1u9:not(:first-child) {
+  margin-left: -16px;
+}
+
+.EntryScreen_text__muHcZ {
+  margin-bottom: 24px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.025em;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(248, 248, 248, 0.4);
+}
+.EntryScreen_text__muHcZ span {
+  font-weight: 700;
+  color: rgba(248, 248, 248, 0.76);
+}
+
+.EntryScreen_otpContainer__C7h_a {
+  text-align: center;
+}
+
+.EntryScreen_otpText__iwXRa {
+  margin-bottom: 32px;
+  color: rgba(248, 248, 248, 0.6);
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.025em;
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media only screen and (max-width: 767px) {
+  .EntryScreen_otpText__iwXRa {
+    margin-bottom: 24px;
+  }
+}
+
+.EntryScreen_otpInputs__sTLNJ {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+@media only screen and (max-width: 767px) {
+  .EntryScreen_otpInputs__sTLNJ {
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+}
+
+.EntryScreen_otpInput___744v {
+  width: 56px;
+  height: 56px;
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  background: rgba(248, 248, 248, 0.05);
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  outline: none;
+  transition: all 0.2s ease;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+@media only screen and (max-width: 767px) {
+  .EntryScreen_otpInput___744v {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+  }
+}
+.EntryScreen_otpInput___744v:focus {
+  border-color: rgba(255, 255, 255, 0.6);
+  background: rgba(248, 248, 248, 0.1);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+}
+.EntryScreen_otpInput___744v::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.EntryScreen_verifyButton__1TayT {
+  width: 100%;
+  height: 48px;
+  background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%);
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 24px;
+}
+.EntryScreen_verifyButton__1TayT:hover:not(:disabled) {
+  background: linear-gradient(135deg, #357ABD 0%, #2E6BA8 100%);
+  transform: translateY(-1px);
+}
+.EntryScreen_verifyButton__1TayT:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.EntryScreen_otpActions__G7583 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 767px) {
+  .EntryScreen_otpActions__G7583 {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+.EntryScreen_resendButton__VFLB5, .EntryScreen_backButton__lWt5O {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  text-decoration: underline;
+}
+.EntryScreen_resendButton__VFLB5:hover, .EntryScreen_backButton__lWt5O:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
