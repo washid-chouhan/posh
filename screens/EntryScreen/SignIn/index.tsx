@@ -72,7 +72,7 @@ const SignIn = ({ onClick, onResetPassword }: SignInProps) => {
       </div>
       <div className={styles.btns}>
         <button onClick={verifyOtp} className={cn("button", styles.button)}>
-          Sign in
+          Sign inn
         </button>
         <Link className={cn("button", styles.button)} href="/">
           <Image src="/images/google.svg" width={24} height={24} alt="" />
