@@ -16,9 +16,10 @@ type ProfileProps = {
     link: string;
     posts: any;
     postFeatured: any;
-    followers: number;
+    followers: string;
     media: any;
     isFollowing: boolean;
+    bio: string
 };
 
 const Profile = ({
@@ -33,6 +34,7 @@ const Profile = ({
     followers,
     media,
     isFollowing,
+    bio,
 }: ProfileProps) => {
     const [tab, setTab] = useState<string>("posts");
 
@@ -63,6 +65,7 @@ const Profile = ({
                     link={link}
                     followers={followers}
                     isFollowing={isFollowing}
+                    bio={bio}
                 />
                 <div className={styles.container}>
                     <Tabs

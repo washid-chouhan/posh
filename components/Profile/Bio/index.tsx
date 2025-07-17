@@ -14,6 +14,7 @@ type BioProps = {
   postsCounter: number;
   followers: number;
   isFollowing: boolean;
+  bio: string
 };
 const Bio = ({
   own,
@@ -23,6 +24,7 @@ const Bio = ({
   postsCounter,
   followers,
   isFollowing,
+  bio
 }: BioProps) => {
   const { setUser, user } = useUserStore();
   const fetchUser = async () => {
@@ -71,12 +73,11 @@ const Bio = ({
         </div>
       </div>
       <div className={styles.description}>
-        <p>🎨 UI/UX Designer | 💡 Crafting seamless digital experiences</p>
-        <p>🚀 Designing user-centric interfaces</p>
-        <p>
-          📍 NYC | Post on <span>#Design #UX #UI</span>
-        </p>
+        {bio.split("\n").map((line, index) => (
+          <p key={index}>{line}</p>
+        ))}
       </div>
+
       <div className={styles.stats}>
         <div className={styles.item}>
           <Icon name="comment" />

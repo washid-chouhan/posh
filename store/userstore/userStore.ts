@@ -12,7 +12,7 @@ export interface UserProfile {
   country_code: string;
   device_token: string;
   role: string;
-  profile_pic: string;
+  profile_pic: any;
   address: string;
   bio: string;
   dob: string;

@@ -19,6 +19,12 @@ const ProfileEditScreen = () => {
     const [location, setLocation] = useState("🌍 Earth");
     const idTooltip = useId();
 
+    console.log(name)
+    console.log(username)
+    console.log(bio)
+    console.log(link)
+    console.log(privateProfile)
+    console.log(location)
     return (
         <Layout rightSidebar rightSidebarActiveTrending hideNavigation>
             <div className={styles.main}>

@@ -12,29 +12,29 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
-    ],
     "/notifications/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/notifications/page.css",
       "static/chunks/app/notifications/page.js"
     ],
-    "/messages/page": [
+    "/explore/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/messages/page.css",
-      "static/chunks/app/messages/page.js"
+      "static/css/app/explore/page.css",
+      "static/chunks/app/explore/page.js"
     ],
-    "/entry/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/entry/page.css",
-      "static/chunks/app/entry/page.js"
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
+    "/profile/edit/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/profile/edit/page.css",
+      "static/chunks/app/profile/edit/page.js"
     ]
   }
 }
