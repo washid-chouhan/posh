@@ -1,12 +1,14 @@
 import { axiosInstance } from "../axiosInstance";
-import { followUserPayload, userProfilePayload } from "./userInterface";
+import {  getSecondUserProfilePayload, userProfilePayload } from "./userInterface";
 
 //get user profile:----
 export const userProfile = async (payload: userProfilePayload) => {
   const response = await axiosInstance.post("/api/user_profile", payload);
   return response.data;
 };
-export const followeUser = async (payload: followUserPayload) => {
-  const response = await axiosInstance.post("/api/followe_user", payload);
+
+// get Second User Profile:---
+export const getSecondUserProfile = async (payload: getSecondUserProfilePayload) => {
+  const response = await axiosInstance.post("/api/second_user_profile", payload);
   return response.data;
 };

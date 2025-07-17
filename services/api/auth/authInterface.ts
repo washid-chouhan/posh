@@ -11,3 +11,30 @@ export interface CheckOtpPayload {
   country_code: string;
   otp: string;
 }
+
+export interface ResetPasswordPayload {
+  email:string;
+  password:string;
+  cnf_pass:string;
+
+}
+
+export interface CheckVerifiedCodePayload {
+  email:string;
+  otp: string;
+}
+
+export interface EmailCheckOtpPayload {
+  email:string;
+  otp:string;
+}
+
+export interface LoginPayload {
+  email:string;
+  password:string;
+}
+
+export interface VerifyOtpDescopePayload {
+  mobile:string;
+  otp: string;
+}

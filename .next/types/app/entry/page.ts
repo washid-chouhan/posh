@@ -1,4 +1,4 @@
-// File: C:\Users\w4sh1\Desktop\Web 2\simple-social-code21i_pmva\app\entry\page.tsx
+// File: C:\Users\fk700\Desktop\posh\app\entry\page.tsx
 import * as entry from '../../../../app/entry/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

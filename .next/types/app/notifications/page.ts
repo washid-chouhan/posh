@@ -1,4 +1,4 @@
-// File: C:\Users\w4sh1\Desktop\Web 2\simple-social-code21i_pmva\app\notifications\page.tsx
+// File: C:\Users\fk700\Desktop\posh\app\notifications\page.tsx
 import * as entry from '../../../../app/notifications/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
