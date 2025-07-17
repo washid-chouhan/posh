@@ -7,6 +7,8 @@ import Icon from "@/components/Icon";
 import Switch from "@/components/Switch";
 import Background from "./Background";
 import styles from "./ProfileEditScreen.module.sass";
+import { userProfile } from "services/api/user/userServices";
+import { userProfilePayload } from "services/api/user/userInterface";
 
 const ProfileEditScreen = () => {
     const [name, setName] = useState("Kohaku Tora");
@@ -19,6 +21,20 @@ const ProfileEditScreen = () => {
     const [location, setLocation] = useState("🌍 Earth");
     const idTooltip = useId();
 
+
+
+
+    const updateProfile = async (payload:userProfilePayload) => {
+        try {
+            const res = await userProfile(payload)
+        } catch (error) {
+            console.error(error)
+        }
+    }
+
+    
+
+   console.log(name)
     return (
         <Layout rightSidebar rightSidebarActiveTrending hideNavigation>
             <div className={styles.main}>
@@ -122,6 +138,7 @@ const ProfileEditScreen = () => {
                                 />
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>

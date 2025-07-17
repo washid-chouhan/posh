@@ -6,7 +6,7 @@ import styles from "./Background.module.sass";
 
 type BackgroundProps = {};
 
-const Background = ({}: BackgroundProps) => {
+const Background = ({ }: BackgroundProps) => {
     const router = useRouter();
 
     return (
