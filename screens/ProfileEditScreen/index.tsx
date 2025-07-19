@@ -7,6 +7,8 @@ import Icon from "@/components/Icon";
 import Switch from "@/components/Switch";
 import Background from "./Background";
 import styles from "./ProfileEditScreen.module.sass";
+import { userProfile } from "services/api/user/userServices";
+import { userProfilePayload } from "services/api/user/userInterface";
 
 const ProfileEditScreen = () => {
   const [name, setName] = useState("Kohaku Tora");
