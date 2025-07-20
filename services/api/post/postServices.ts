@@ -88,7 +88,7 @@ export const getAllLatestPost = async () => {
 // like Post:---
 export const likePost = async (payload: likePostPayload) => {
   const response = await axiosInstance.post("/api/like_post", payload);
-  return response.data;
+  return response;
 };
 
 // comment like post:---

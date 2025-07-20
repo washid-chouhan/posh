@@ -14,7 +14,7 @@ type BioProps = {
   postsCounter: number;
   followers: number;
   isFollowing: boolean;
-  bio: string
+  bio: string;
 };
 const Bio = ({
   own,
@@ -24,28 +24,13 @@ const Bio = ({
   postsCounter,
   followers,
   isFollowing,
-  bio
+  bio,
 }: BioProps) => {
-  const { setUser, user } = useUserStore();
-  const fetchUser = async () => {
-    try {
-      const payload = {
-        user_id: "2",
-      };
-      const res = await userProfile(payload);
-      console.log(res);
-      setUser(res);
-    } catch (error) {
-      console.error(error);
-    }
-  };
   return (
     <div className={styles.bio}>
       <div className={styles.head}>
         <div className={styles.details}>
-          <div onClick={fetchUser} className={styles.name}>
-            {name}
-          </div>
+          <div className={styles.name}>{name}</div>
           <div className={styles.login}>@{login}</div>
         </div>
         <div className={styles.controls}>

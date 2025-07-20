@@ -1,5 +1,9 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/profile/page": "app/profile/page.js",
+<<<<<<< HEAD
+=======
+  "/profile/edit/page": "app/profile/edit/page.js",
+>>>>>>> bbfd19d98223bebef9daffe9fee6f2ca49ef26d6
   "/favicon.ico/route": "app/favicon.ico/route.js"
 }

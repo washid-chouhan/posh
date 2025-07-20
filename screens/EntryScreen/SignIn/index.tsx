@@ -35,7 +35,7 @@ const SignIn = ({ onClick, onResetPassword }: SignInProps) => {
 
       const token = res.data.token;
       useAuthStore.getState().setToken(token); // ✅ Save token
-      //   router?.push("/");
+      router?.push("/");
     } catch (error) {
       console.error(error);
     }

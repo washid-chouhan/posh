@@ -50,7 +50,6 @@ const Post = ({
 }: PostProps) => {
   const [isBookmark, setIsBookmark] = useState(item.bookmark);
   const idTooltip = useId();
-
   const actions = [
     {
       title: "Delete",
@@ -130,7 +129,11 @@ const Post = ({
         )}
         {!bookmark && (
           <div className={styles.controls}>
-            <Like count={item.likes?.count} initialLiked={item.likes?.liked} />
+            <Like
+              item={item}
+              count={item.likes?.count}
+              initialLiked={item.likes?.liked}
+            />
             <Repost
               count={item.reposts?.count}
               initialReposted={item.reposts?.reposted}

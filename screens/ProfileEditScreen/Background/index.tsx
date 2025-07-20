@@ -1,12 +1,27 @@
+
 import { useRouter } from "next/navigation";
 import cn from "classnames";
 import Image from "@/components/Image";
 import Icon from "@/components/Icon";
 import styles from "./Background.module.sass";
 
-type BackgroundProps = {};
+type BackgroundProps = {
+    onSave?: () => void;
+    isLoading?: boolean;
+    onImageChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
+    triggerFileInput?: () => void;
+    previewImage?: string | null;
+    fileInputRef?: React.RefObject<HTMLInputElement>;
+};
 
-const Background = ({ }: BackgroundProps) => {
+const Background = ({ 
+    onSave, 
+    isLoading, 
+    onImageChange, 
+    triggerFileInput, 
+    previewImage,
+    fileInputRef 
+}: BackgroundProps) => {
     const router = useRouter();
 
     return (
@@ -17,15 +32,21 @@ const Background = ({ }: BackgroundProps) => {
                 sizes="(min-width: 1024px) 50vw, 100vw"
                 alt=""
             />
-            <div className={styles.avatar}>
+            <div className={styles.avatar} onClick={triggerFileInput}>
                 <Image
-                    src="/images/avatar-9.png"
+                    src={previewImage || "/images/avatar-9.png"}
                     width={80}
                     height={80}
-                    alt=""
+                    alt="Profile"
                 />
                 <Icon name="camera" />
-                <input type="file" />
+                <input 
+                    type="file" 
+                    onChange={onImageChange} 
+                    ref={fileInputRef}
+                    accept="image/*"
+                    // style={{ display: 'none' }}
+                />
             </div>
             <button
                 className={cn("button-circle", styles.back)}
@@ -40,7 +61,13 @@ const Background = ({ }: BackgroundProps) => {
                 <button className={cn("button-circle", styles.button)}>
                     <Icon name="camera" />
                 </button>
-                <button className={cn("button", styles.button)}>Save</button>
+                <button 
+                    className={cn("button", styles.button)} 
+                    onClick={onSave} 
+                    disabled={isLoading}
+                >
+                    {isLoading ? 'Saving...' : 'Save'}
+                </button>
             </div>
         </div>
     );
