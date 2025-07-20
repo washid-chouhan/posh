@@ -5,9 +5,9 @@ export interface updateUserProfilePayload {
   email: string;
   username: string;
   bio: string;
-  gender: string;
-  avtar_id: string;
-  profile_pic: string;
+  gender?: string;
+  avtar_id?: string;
+  profile_pic?: File | null;
 }
 
 export interface userProfilePayload {
