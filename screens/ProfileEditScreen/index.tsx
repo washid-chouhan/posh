@@ -186,8 +186,87 @@ const ProfileEditScreen = () => {
                     </div>
                 </div>
             </div>
-        </Layout>
-    );
+            <div className={styles.field}>
+              <div className={styles.label}>
+                <Icon name="at" /> Usename
+              </div>
+              <div className={styles.wrap}>
+                <input
+                  className={styles.input}
+                  type="text"
+                  placeholder="Display username"
+                  value={username}
+                  onChange={(e) => setUsername(e.target.value)}
+                />
+              </div>
+            </div>
+            <div className={styles.field}>
+              <div className={styles.label}>
+                <Icon name="pencil" /> Bio
+              </div>
+              <div className={styles.wrap}>
+                <textarea
+                  className={styles.textarea}
+                  placeholder="Bio"
+                  value={bio}
+                  onChange={(e) => setBio(e.target.value)}
+                ></textarea>
+              </div>
+            </div>
+            <div className={styles.field}>
+              <div className={styles.label}>
+                <Icon name="link" /> Link
+              </div>
+              <div className={styles.wrap}>
+                <input
+                  className={styles.input}
+                  type="text"
+                  placeholder="Display link"
+                  value={link}
+                  onChange={(e) => setLink(e.target.value)}
+                />
+              </div>
+            </div>
+            <div className={styles.line}>
+              <div className={styles.label}>
+                <Icon name="shield" /> Private profile
+              </div>
+              <div className={styles.box}>
+                <Switch
+                  className={styles.switch}
+                  checked={privateProfile}
+                  onChange={() => setPrivateProfile(!privateProfile)}
+                />
+                <div
+                  className={styles.tooltip}
+                  data-tooltip-id={idTooltip}
+                  data-tooltip-content="Tooltip Private profile"
+                  data-tooltip-place="top-end"
+                >
+                  <Icon name="info" />
+                </div>
+                <Tooltip id={idTooltip} />
+              </div>
+            </div>
+            <div className={styles.field}>
+              <div className={styles.label}>
+                <Icon name="earth" /> Location
+              </div>
+              <div className={styles.wrap}>
+                <input
+                  className={styles.input}
+                  type="text"
+                  placeholder="Display location"
+                  value={location}
+                  onChange={(e) => setLocation(e.target.value)}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Layout>
+  );
 };
 
 export default ProfileEditScreen;

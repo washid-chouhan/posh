@@ -21,13 +21,13 @@
     "/profile/edit/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/profile/edit/page.css",
       "static/chunks/app/profile/edit/page.js"
     ],
-    "/_not-found/page": [
+    "/posts/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/css/app/posts/[id]/page.css",
+      "static/chunks/app/posts/[id]/page.js"
     ]
   }
 }

@@ -11,10 +11,10 @@ export const userProfile = async (payload: userProfilePayload) => {
 };
 export const updateUserProfile = async (payload: updateUserProfilePayload) => {
   const response = await axiosInstance.post("/api/user_profile", payload, {
-      headers: {
-        'Content-Type': 'multipart/form-data'
-      }
-    });
+    headers: {
+      "Content-Type": "multipart/form-data",
+    },
+  });
   return response.data;
 };
 
